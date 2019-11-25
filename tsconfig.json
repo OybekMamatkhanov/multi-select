@@ -1,0 +1,29 @@
+{
+    "compilerOptions": {
+      "outDir": "./dist/",
+      "sourceMap": true,
+      "noImplicitAny": true,
+      "module": "es6",
+      "target": "esnext",
+      "jsx": "preserve",
+      "strict": true,
+      "allowJs": true,
+      "lib": ["es5", "es6", "es7", "esnext", "dom"],
+      "skipLibCheck": true,
+      "allowSyntheticDefaultImports":true,
+      "strictNullChecks": true,
+      "moduleResolution": "node",
+      "noEmit": false,
+      "esModuleInterop": true,
+      "baseUrl": "./src",
+      "removeComments": true,
+      "alwaysStrict": true,
+      "allowUnreachableCode": false,
+      "noImplicitThis": true,
+      "noUnusedLocals": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "forceConsistentCasingInFileNames": false,
+      "importHelpers": true
+    }
+}
